@@ -14,6 +14,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        let html = "<html><h1>Hello!<h1></html>"
+        
+        // I'm sure this won't crash
+    
+        
     }
 
     override func didReceiveMemoryWarning() {

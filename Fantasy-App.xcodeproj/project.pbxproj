@@ -13,6 +13,7 @@
 		3E4A27F1202F83EF00DB21ED /* Fantasy_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E4A27EF202F83EF00DB21ED /* Fantasy_App.xcdatamodeld */; };
 		3E4A27F3202F83EF00DB21ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A27F2202F83EF00DB21ED /* Assets.xcassets */; };
 		3E4A27F6202F83EF00DB21ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A27F4202F83EF00DB21ED /* LaunchScreen.storyboard */; };
+		3E61E6A1202F89E70054CD87 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E61E6A0202F89E70054CD87 /* Player.swift */; };
 		FBF091222BCAFB11F964AE66 /* Pods_Fantasy_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA65E7F64A8034BFF94CE50 /* Pods_Fantasy_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		3E4A27F2202F83EF00DB21ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E4A27F5202F83EF00DB21ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E4A27F7202F83EF00DB21ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E61E6A0202F89E70054CD87 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		41F20231C1B7D7823F2E0596 /* Pods-Fantasy-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fantasy-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fantasy-App/Pods-Fantasy-App.release.xcconfig"; sourceTree = "<group>"; };
 		6CA65E7F64A8034BFF94CE50 /* Pods_Fantasy_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fantasy_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B456EFCA178387A0D6978D /* Pods-Fantasy-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fantasy-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fantasy-App/Pods-Fantasy-App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		3E4A27E7202F83EF00DB21ED /* Fantasy-App */ = {
 			isa = PBXGroup;
 			children = (
+				3E61E6A0202F89E70054CD87 /* Player.swift */,
 				3E4A27E8202F83EF00DB21ED /* AppDelegate.swift */,
 				3E4A27EA202F83EF00DB21ED /* ViewController.swift */,
 				3E4A27EC202F83EF00DB21ED /* Main.storyboard */,
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E61E6A1202F89E70054CD87 /* Player.swift in Sources */,
 				3E4A27F1202F83EF00DB21ED /* Fantasy_App.xcdatamodeld in Sources */,
 				3E4A27EB202F83EF00DB21ED /* ViewController.swift in Sources */,
 				3E4A27E9202F83EF00DB21ED /* AppDelegate.swift in Sources */,
@@ -361,7 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YDZFEQK62W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Fantasy-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mitchemery.Fantasy-App";
@@ -377,7 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YDZFEQK62W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Fantasy-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mitchemery.Fantasy-App";
