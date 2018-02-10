@@ -4,10 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Fantasy-App.xcscheme</key>
+		<key>Fuzi.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+		<key>Pods-Fantasy-App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 </dict>
